@@ -1,0 +1,68 @@
+/* Formatierungen für alle Seiten */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #35291f;
+    background-color: #faf5ed;
+}
+
+header {
+    background-color: #e8d7bf;
+    border-bottom: 3px solid #795638;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    color: #62432c;
+}
+
+nav {
+    font-size: 1.1rem;
+}
+
+nav a {
+    color: #513822;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* aktuelle Seite unterstreichen */
+nav a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+body > h1,
+main h1 {
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    color: #62432c;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    color: #62432c;
+    border-bottom: 1px solid #c9b398;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #c9b398;
+    padding: 5px 10px;
+}
+
+th {
+    background-color: #e8d7bf;
+}
+
+footer {
+    font-size: 0.85rem;
+    color: #665747;
+    background-color: #e8d7bf;
+    padding: 5px 10px;
+}
